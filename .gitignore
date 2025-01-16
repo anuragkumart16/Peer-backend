@@ -1,0 +1,57 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Django secret key and settings (if separate)
+settings_local.py
+
+# Database
+*.sqlite3
+*.db
+
+# Logs
+logs/
+*.log
+
+# Media files (user-uploaded content)
+media/
+
+# Static files (collected by collectstatic)
+staticfiles/
+
+# Virtual environment
+venv/
+env/
+*.egg-info/
+
+# Cache files
+*.cache
+*.mo
+*.pot
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+*.cover
+*.coverage
+.coverage.*
+
+# Testing-related files
+*.test
+test-results/
+
+# Node.js dependencies (if using npm/yarn)
+node_modules/
